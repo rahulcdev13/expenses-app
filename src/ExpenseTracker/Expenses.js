@@ -15,18 +15,7 @@ const dummy_expensesList = [
 const Expenses = () => {
 
   const [newExpenseAdd, setNewExpenseAdd] = useState(dummy_expensesList);
-
-  // useEffect(() => {
-  //   fetch('https://api.sampleapis.com/beers/ale')
-  //     .then(response => {
-  //       response.json();
-  //     })
-  //     .then(result => {
-  //       console.log(result);
-  //       // setNewExpenseAdd(result);
-  //     });
-  // }, [])
-
+ 
   const saveExpenseDataHandler = (getChildToParentExpense) => {
     const updateExpenses = [getChildToParentExpense, ...newExpenseAdd];
     setNewExpenseAdd(updateExpenses);
