@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #121314;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.nav-linkss:hover {
+  background-color: gray;
+  color: white;
+}
+
+.todo_form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: #976689;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+.todo_data{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: #352e33;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
